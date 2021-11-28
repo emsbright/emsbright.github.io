@@ -600,6 +600,7 @@ a:hover,
   background: #f7f7f7;
   position: relative;
   padding-bottom: 80px;
+  align-items: center;
 }
 
 .services-block span {
@@ -620,6 +621,13 @@ a:hover,
 }
 
 .services-block i {
+  font-size: 44px;
+  color: #b8a07e;
+  line-height: 44px;
+  text-align: center;
+}
+
+.services-block .iconify {
   font-size: 44px;
   color: #b8a07e;
   line-height: 44px;
