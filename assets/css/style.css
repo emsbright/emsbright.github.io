@@ -887,13 +887,15 @@ a:hover,
 }
 
 #journal .journal-block {
-  display: inline-block;
+  /* display: inline-block; */
   height: auto;
   width: 100%;
+  display: flex;
 }
 
 #journal .journal-block .journal-info {
   position: relative;
+  align-items: center;
 }
 
 .journal-block .journal-info img {
