@@ -887,8 +887,8 @@ a:hover,
 }
 
 #journal .journal-block {
-  /* display: inline-block; */
-  height: auto;
+  display: inline-block;
+  height: 100%;
   width: 100%;
   display: flex;
 }
@@ -900,6 +900,7 @@ a:hover,
 
 .journal-block .journal-info img {
   max-width: 100%;
+  max-height: 275px;
 }
 
 .journal-block .journal-info .journal-txt {
